@@ -56,7 +56,7 @@ public class SkroutzPriceScraper {
 
             double convertedPrice = Double.valueOf(price);
 
-            int desiredPrice =400;
+            double desiredPrice =0.0;
             
             if (convertedPrice > desiredPrice) {
                 message.setText("Ωρα για αγορές!!!\n" + URL);
