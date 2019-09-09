@@ -69,7 +69,7 @@ public class SkroutzPriceScraper {
                     String title = titleElement.text();
                     titles.add(title);
 
-                    String price = priceElement.first().text().substring(0, 6).replace(",", ".").trim();
+                    String price = priceElement.first().text().replace("€","").replace(",", ".").trim();
 
                     double convertedPrice = Double.valueOf(price);
                     convertedPrices.add(convertedPrice);
