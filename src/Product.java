@@ -4,7 +4,7 @@ import org.jsoup.select.Elements;
 import java.io.IOException;
 
 public class Product {
-    private final String productUrl;
+    public final String productUrl;
     private String productName;
     private Double productPrice;
     public Double desiredPrice;
